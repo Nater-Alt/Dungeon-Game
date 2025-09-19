@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/player/projectile.gd" id="1"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(10, 2)
+
+[node name="Knife" type="Area2D"]
+script = ExtResource(1)
+speed = 540.0
+damage = 25
+collision_layer = 4
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource(1)

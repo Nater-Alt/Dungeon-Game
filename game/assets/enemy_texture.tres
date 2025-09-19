@@ -1,0 +1,8 @@
+[gd_resource type="GradientTexture2D" load_steps=2 format=3]
+
+[ext_resource type="Gradient" path="res://assets/enemy_gradient.tres" id="1"]
+
+[resource]
+gradient = ExtResource(1)
+width = 32
+height = 48
