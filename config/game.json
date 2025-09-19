@@ -1,0 +1,16 @@
+{
+  "difficulty": "normal",
+  "light_radius": 320.0,
+  "enemy_density": 0.75,
+  "drop_rates": {
+    "torches": 0.4,
+    "flares": 0.25,
+    "rations": 0.35,
+    "keys": 0.12
+  },
+  "stretch_goals": {
+    "enable_story_codex": false,
+    "enable_daily_seed": true,
+    "enable_hardcore_mode": false
+  }
+}

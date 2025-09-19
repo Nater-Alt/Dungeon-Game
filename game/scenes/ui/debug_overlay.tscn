@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/ui/debug_overlay.gd" id="1"]
+
+[node name="DebugOverlay" type="Control"]
+script = ExtResource(1)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 0
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 256.0
+margin_bottom = 216.0
+
+[node name="Label" type="Label" parent="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "Debug"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = false
+autostart = true
